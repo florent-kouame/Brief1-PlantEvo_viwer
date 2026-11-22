@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte des observations - PlantEvo</title>
+    <link rel="stylesheet" href="../css/styleCarte.css">
+</head>
+<body class="page-carte">
+    <!-- HEADER -->
+    <header class="carte-header">
+
+        <div class="carte-logo">
+            <span class="logo-feuille">❧</span>
+            <h2>Plant<span>Evo</span></h2>
+        </div>
+
+        <nav class="carte-nav">
+            <a href="index.html">Accueil</a>
+            <a href="index.html#groupes">Groupes</a>
+            <a href="carte.html" class="active">Carte</a>
+            <a href="index.html#a-propos">À propos</a>
+        </nav>
+
+    </header>
+    <main class="carte-container">
+
+        <!-- TITRE -->
+        <section class="carte-intro">
+
+            <h1>Carte des observations</h1>
+
+            <p>
+                Chaque point est une plante observée sur le terrain.
+            </p>
+
+        </section>
+
+
+        <!-- LEGENDE -->
+        <section class="legende">
+
+            <div class="legende-item">
+                <span class="point algue"></span>
+                Algues
+            </div>
+
+            <div class="legende-item">
+                <span class="point mousse"></span>
+                Mousses
+            </div>
+
+            <div class="legende-item">
+                <span class="point fougere"></span>
+                Fougères
+            </div>
+
+            <div class="legende-item">
+                <span class="point conifere"></span>
+                Conifères
+            </div>
+
+            <div class="legende-item">
+                <span class="point monocot"></span>
+                Monocotylédones
+            </div>
+
+            <div class="legende-item">
+                <span class="point dicot"></span>
+                Dicotylédones
+            </div>
+
+        </section>
+
+
+        <!-- CARTE -->
+        <section class="carte">
+
+            <!-- DECORATION DE LA CARTE -->
+            <div class="zone-terrestre"></div>
+
+            <div class="ligne ligne-1"></div>
+            <div class="ligne ligne-2"></div>
+            <div class="ligne ligne-3"></div>
+
+            <div class="forme forme-1"></div>
+            <div class="forme forme-2"></div>
+
+
+            <!-- POINTS D'OBSERVATION -->
+
+            <span class="marqueur mousse p1"></span>
+
+            <span class="marqueur conifere p2"></span>
+
+            <span class="marqueur dicot p3"></span>
+
+            <span class="marqueur fougere p4"></span>
+
+            <span class="marqueur mousse p5 selectionne"></span>
+
+            <span class="marqueur algue p6"></span>
+
+            <span class="marqueur monocot p7"></span>
+
+            <span class="marqueur monocot p8"></span>
+
+            <span class="marqueur conifere p9"></span>
+
+            <span class="marqueur dicot p10"></span>
+
+            <span class="marqueur fougere p11"></span>
+
+            <span class="marqueur algue p12"></span>
+
+            <!-- FENETRE D'OBSERVATION -->
+            <div class="observation-carte">
+
+                <div class="observation-haut">
+
+                    <div class="icone-observation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="observation-texte">
+
+                        <h3>Observation</h3>
+
+                        <p>Espèce : à identifier</p>
+
+                        <p>GPS : 0,0000 ; 0,0000</p>
+
+                    </div>
+
+                </div>
+
+                <p class="observation-date">
+                    Mousses · jj/mm/aaaa
+                </p>
+
+            </div>
+
+
+            <!-- ZONE D'EAU -->
+            <div class="eau"></div>
+
+            <p class="texte-carte">
+                Points fictifs, à titre d’illustration
+            </p>
+
+        </section>
+
+
+        <!-- BOUTON -->
+        <div class="carte-bouton">
+
+            <a href="index.html#groupes">
+                Voir les groupes
+            </a>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
