@@ -300,7 +300,7 @@ a {
 }
 
 .photo-terrain {
-    width: 340px;
+    width: 200px;
     border-radius: 14px;
     object-fit: cover;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
