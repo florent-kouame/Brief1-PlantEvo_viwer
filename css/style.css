@@ -1,4 +1,4 @@
-/* ========== RESET ========== */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ a {
     color: inherit;
 }
 
-/* ========== HEADER ========== */
+
 .header {
     background: white;
     padding: 14px 6%;
@@ -72,7 +72,6 @@ a {
     width: 100%;
 }
 
-/* ========== HERO ========== */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                 url('../image/image2.png') center/cover no-repeat;
@@ -114,7 +113,7 @@ a {
     border: 3px solid rgba(255, 255, 255, 0.15);
 }
 
-/* ========== SECTION GROUPES ========== */
+
 .groupes {
     padding: 70px 6% 90px;
     background: white;
@@ -154,7 +153,6 @@ a {
     line-height: 1.7;
 }
 
-/* Grille des 6 cartes */
 .grille {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -198,7 +196,7 @@ a {
     background: #e8f5ee;
 }
 
-/* ========== FOOTER ========== */
+
 .footer {
     background: #7a9e8a;
     color: white;
@@ -211,43 +209,3 @@ a {
     font-weight: 600;
 }
 
-/* ========== RESPONSIVE ========== */
-@media (max-width: 900px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 70px 5% 60px;
-    }
-
-    .hero-image {
-        max-width: 380px;
-    }
-
-    .grille {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .header {
-        flex-direction: column;
-        gap: 16px;
-        padding: 16px;
-    }
-
-    .nav {
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .grille {
-        grid-template-columns: 1fr;
-        max-width: 320px;
-        margin: 0 auto;
-    }
-
-    .carte img {
-        height: 200px;
-    }
-}
